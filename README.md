@@ -7,6 +7,15 @@ A student-led bioinformatics research project investigating gene-expression diff
 > **Primary data candidate:** NCBI Gene Expression Omnibus (GEO), accession [GSE67472](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE67472)  
 > **Important:** The dataset and final research question are provisional until the first feasibility check is documented.
 
+## Project control center
+
+- **[Week-by-week roadmap and project versioning](docs/PROJECT_ROADMAP.md)** — weekly goals, work logic, exit criteria, milestone gates, and change-control rules.
+- [Project charter](docs/PROJECT_CHARTER.md) — scope, research question, and decision rules.
+- [Session handoff rules](docs/SESSION_HANDOFF_RULES.md) — rules for continuing work across sessions.
+- [Dated handoffs](docs/handoffs/) — current state, evidence, decisions, and next actions.
+
+The roadmap is the planning baseline. At the end of each meaningful session, create a handoff; at the end of each week, record whether the week's exit criteria were met. Any major change to scope, dataset, comparison, or method must be justified in a dated decision note.
+
 ## Working research question
 
 In a public gene-expression dataset, which genes differ between airway epithelial samples from people with asthma and healthy controls, and are selected inflammation-related gene-expression patterns consistent with the original study?
@@ -39,12 +48,13 @@ This project is an educational reanalysis of public data. It is not a clinical t
 
 ## Repository structure
 
-- `docs/PROJECT_CHARTER.md` — scope, research question, and decision rules
-- `docs/SESSION_HANDOFF_RULES.md` — rules for continuing work across sessions
-- `docs/handoffs/` — dated handoff notes
-- `research/` — research plan, literature notes, and methods
-- `results/` — reviewed tables and figures
-- `scripts/` — code added when needed
+- docs/PROJECT_ROADMAP.md — week-by-week schedule and version-control rules
+- docs/PROJECT_CHARTER.md — project scope and decision rules
+- docs/SESSION_HANDOFF_RULES.md — session continuity
+- docs/handoffs/ — dated handoff notes
+- research/ — research plan, literature notes, and methods
+- results/ — reviewed tables and figures
+- scripts/ — code added when needed
 
 ## Research integrity
 
@@ -58,9 +68,7 @@ This project is an educational reanalysis of public data. It is not a clinical t
 
 ## Session continuity
 
-Before continuing work, read the latest handoff in `docs/handoffs/` and the session rules. At the end of every meaningful work session, update the handoff with completed work, evidence, decisions, unresolved questions, changed files, and the next concrete action.
-
-See [Session Handoff Rules](docs/SESSION_HANDOFF_RULES.md).
+Before continuing work, read the roadmap, project charter, session handoff rules, and latest handoff. At the end of every meaningful work session, update the handoff with completed work, evidence, decisions, unresolved questions, changed files, and the next concrete action.
 
 ## Primary source
 
