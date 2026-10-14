@@ -11,6 +11,36 @@
 - **Reading status:** Not started
 - **Purpose:** Understand the original study design and claims before deciding what a careful reanalysis of GSE67472 can investigate.
 
+## Side-by-side reading workspace (원문 ↔ 내 노트)
+
+**How to use:** Open the [original full-text article](https://pmc.ncbi.nlm.nih.gov/articles/PMC4407484/) in a second browser window beside this GitHub editor. The **left column** identifies exactly where to look in the source; the **right column** is where I record my interpretation. The source text itself is not reproduced here. For exact traceability, enter the subsection heading, paragraph opening words (a few words only), figure/table number, and/or GEO sample accession in the source-location field.
+
+> **Important:** The linked article is the publication associated with GSE67472, but the publication's broader research scope may differ from the narrower GEO dataset. Check the dataset's own [Summary / Overall design / Samples](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE67472) before treating an article claim as a finding specifically about GSE67472.
+
+| 원문에서 확인할 위치 (Source: left) | 내가 쓰는 노트 (My notes: right) |
+|---|---|
+| **[Article — Abstract](https://pmc.ncbi.nlm.nih.gov/articles/PMC4407484/)**<br>Exact subsection / sentence opening: `[fill in]` | **[MY UNDERSTANDING]**<br><br>**[QUESTION]**<br><br>**[PAPER EVIDENCE + location]** |
+| **[Article — Introduction](https://pmc.ncbi.nlm.nih.gov/articles/PMC4407484/)**<br>Subheading / paragraph: `[fill in]` | **[MY UNDERSTANDING]**<br><br>**[QUESTION]** |
+| **[Article — Methods](https://pmc.ncbi.nlm.nih.gov/articles/PMC4407484/)**<br>Subheading / paragraph: `[fill in]` | **[MY UNDERSTANDING]**<br><br>**[PAPER EVIDENCE + location]**<br><br>**[QUESTION]** |
+| **[Article — Results](https://pmc.ncbi.nlm.nih.gov/articles/PMC4407484/)**<br>Figure / table / subsection: `[fill in]` | **[PAPER EVIDENCE]**<br><br>**[MY INTERPRETATION]**<br><br>**[QUESTION]** |
+| **[Article — Discussion](https://pmc.ncbi.nlm.nih.gov/articles/PMC4407484/)**<br>Subheading / paragraph: `[fill in]` | **[MY UNDERSTANDING]**<br><br>**[CRITIQUE]** |
+| **[GEO GSE67472 — Summary / Overall design](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE67472)**<br>Field / sample accession: `[fill in]` | **[PAPER/DATASET EVIDENCE]**<br><br>**[PROJECT CONNECTION]**<br><br>**[QUESTION]** |
+
+### Precise annotation log (문장·그림별 주석)
+
+Copy one row per idea. Write a **specific locator**, not just “Methods” or “page 3.” Do not paste long stretches of the original text.
+
+| ID | Original source link | Exact location (heading, paragraph opening, Fig./Table, GEO ID) | What I understood | My question / critique | Checked? |
+|---|---|---|---|---|---|
+| A01 | [Article](https://pmc.ncbi.nlm.nih.gov/articles/PMC4407484/) | [fill in] | [my words] | [my question] | No |
+| A02 | [GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE67472) | [fill in] | [my words] | [my question] | No |
+
+### GitHub editing tip
+
+GitHub Markdown tables show two columns in **Preview**, but the editor is plain Markdown rather than a true split-screen PDF annotator. For comfortable reading, put the article and GitHub editor in separate windows using Windows Snap (`Win + Left` / `Win + Right`). Then return to **Preview** to inspect the two-column record.
+
+---
+
 ## 1. My first-pass understanding
 
 - **[MY UNDERSTANDING] In my own words, what is the paper about?**
