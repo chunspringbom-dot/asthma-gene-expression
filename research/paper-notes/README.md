@@ -6,6 +6,8 @@ This folder records my own reading of scientific papers used in this project. Th
 
 - [Original study reading notes — GSE67472](2026-10-13-original-paper-reading.md) — working notes for the paper linked from the GEO record. This file is a scaffold until I read and fill it in.
 
+- [October 14 learning session — COPD, asthma and biomarker reasoning](2026-10-14-copd-asthma-biomarkers-learning.md) — retrospective record of student questions and selected answer choices; assistant explanations and unverified details are explicitly distinguished.
+
 ## How to use this space
 
 1. Read a small section of the paper.
