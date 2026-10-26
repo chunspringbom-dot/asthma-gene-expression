@@ -6,7 +6,7 @@
 - **Working period:** October 2026 – February 2027
 - **Research area:** Gene expression / airway inflammation / asthma
 - **Project type:** Student-led analysis of public research data
-- **Status:** Kickoff; dataset feasibility not yet fully checked
+- **Status (2026-10-26):** Student has read part of the original Abstract; dataset feasibility and sample group audit incomplete, no analysis executed. See [Roadmap v1.1](PROJECT_ROADMAP.md) and [dated learning/schedule decision](decisions/DECISION-2026-10-26-reading-workflow-and-sat-schedule.md).
 
 ## Research question (provisional)
 
@@ -72,17 +72,20 @@ A surprising or non-significant result can still be a valid outcome if the analy
 - No requirement to master Python before starting.
 - A second-dataset analysis is optional, not a core deliverable.
 
-## Provisional timeline
+## Active provisional timeline (v1.1; SAT on December 5)
 
-- **October 2026:** Learn core terms, review the GEO record and paper, assess feasibility.
-- **November 2026:** Finalize the dataset and primary comparison; produce the first result table/figure.
-- **December 2026:** Complete the main analysis and compare with the original study.
-- **January 2027:** Interpret biological meaning, examine limitations, and draft the report.
-- **February 2027:** Finalize report, figures, references, README, and repository review.
+- **Oct 26–Dec 4, 2026:** SAT priority; capstone target 60–90 minutes/week for guided Abstract, asthma-specific Methods and GEO design notes; pilot sample checks only if access allows.
+- **Dec 5–6:** SAT day and optional recovery; no required research tasks.
+- **Dec 7–20:** Re-enter research; sample metadata audit and provisional primary contrast.
+- **Dec 21, 2026–Jan 17, 2027:** Feasibility and carefully recorded main analysis *only if metadata supports it*. If not, record blockers and revise.
+- **Jan 18–Feb 7:** Figures, interpretation, limitations, and reproducibility if analysis succeeds.
+- **Feb 8–28:** Draft report, organize GitHub, check sources, final handoff and portfolio. Feb 28 remains a target, not a guarantee.
+
+The **original Oct 13 schedule missed some exit criteria**; its original version is preserved [here](archive/PROJECT_ROADMAP_v1.0_2026-10-13.md). See [project chronology](PROJECT_CHANGELOG.md). This scheduling revision does **not** change the scientific question, candidate dataset, or success criteria.
 
 ## Immediate next actions
 
-1. Open the GEO record and record its study design, platform, and data-processing details.
-2. Find and read the original paper associated with the GEO record.
-3. Confirm whether GEO2R supports the intended comparison and how sample groups should be selected.
-4. Write a one-page feasibility note before starting the main analysis.
+1. Complete a short source-linked Abstract explanation in the student's own words and clarify cohort/airway epithelial terms.
+2. Read the asthma-specific Methods and distinguish GSE67472 from the article's COPD and GLUCOLD cohorts.
+3. After the December 5 SAT, finish GEO sample-group mapping and check processed data/GEO2R suitability.
+4. Only then prerecord the primary contrast and run a documented analysis if feasible.
