@@ -2,14 +2,20 @@
 
 A student-led bioinformatics research project investigating gene-expression differences in airway epithelial samples from people with asthma and healthy controls, using publicly available data.
 
-> **Project status:** Kickoff / exploratory phase  
+> **Project status (2026-10-26):** Planning and guided paper reading; student read part of the Abstract. GSE67472 sample audit and statistical analysis **not yet completed**.  
 > **Working period:** October 2026 – February 2027  
 > **Primary data candidate:** NCBI Gene Expression Omnibus (GEO), accession [GSE67472](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE67472)  
-> **Important:** The dataset and final research question are provisional until the first feasibility check is documented.
+> **SAT scheduling:** Student exam **2026-12-05**; project time ~60–90 min/week before the exam, intended ~3–4 hours/week afterwards if feasible. The [active v1.1 roadmap](docs/PROJECT_ROADMAP.md) supersedes [archived v1.0](docs/archive/PROJECT_ROADMAP_v1.0_2026-10-13.md).  
+> **Important:** The dataset and final research question remain provisional; no verifiable GEO2R analysis has been run.
 
 ## Project control center
 
-- **[Week-by-week roadmap and project versioning](docs/PROJECT_ROADMAP.md)** — weekly goals, work logic, exit criteria, milestone gates, and change-control rules.
+- **[Week-by-week roadmap v1.1](docs/PROJECT_ROADMAP.md)** — SAT-adjusted schedule, weekly tasks, evidence gates and versioning.
+- **[Chronological project change log](docs/PROJECT_CHANGELOG.md)** — dated progress, corrections, learning-method changes and delays.
+- **[Oct 26 decision: learning method and SAT scheduling](docs/decisions/DECISION-2026-10-26-reading-workflow-and-sat-schedule.md)** — why the workflow and calendar changed.
+- **[Latest handoff (Oct 26)](docs/handoffs/2026-10-26-paper-reading-sat-adjustment.md)** — resume point for new conversations.
+- **[Original paper: structure reference](research/literature/christenson-2015-paper-structure.md)** — source-checked overview, labeled as assistant support.
+- **[Student's partial Abstract interpretation](research/paper-notes/2026-10-26-abstract-reading-feedback.md)** — initial comprehension and corrections.
 - [Project charter](docs/PROJECT_CHARTER.md) — scope, research question, and decision rules.
 - [Session handoff rules](docs/SESSION_HANDOFF_RULES.md) — rules for continuing work across sessions.
 - [Dated handoffs](docs/handoffs/) — current state, evidence, decisions, and next actions.
@@ -48,7 +54,12 @@ This project is an educational reanalysis of public data. It is not a clinical t
 
 ## Repository structure
 
-- docs/PROJECT_ROADMAP.md — week-by-week schedule and version-control rules
+- docs/PROJECT_ROADMAP.md — active v1.1 SAT-adjusted schedule and evidence gates
+- docs/PROJECT_CHANGELOG.md — chronological history
+- docs/decisions/ — documented research/workflow decisions
+- docs/archive/ — preserved superseded plans
+- research/paper-notes/ — dated reading notes with source-linked student annotations
+- research/literature/ — assistant-prepared source-based study orientations
 - docs/PROJECT_CHARTER.md — project scope and decision rules
 - docs/SESSION_HANDOFF_RULES.md — session continuity
 - docs/handoffs/ — dated handoff notes
@@ -69,6 +80,10 @@ This project is an educational reanalysis of public data. It is not a clinical t
 ## Session continuity
 
 Before continuing work, read the roadmap, project charter, session handoff rules, and latest handoff. At the end of every meaningful work session, update the handoff with completed work, evidence, decisions, unresolved questions, changed files, and the next concrete action.
+
+## Original paper vs data boundary
+
+The [Christenson et al. (2015) article](https://pubmed.ncbi.nlm.nih.gov/25611785/) compares gene signatures across asthma and COPD data, including a separate randomized placebo-controlled treatment study. **GSE67472 contains only the asthma/healthy airway epithelial series (62 + 43 subjects)**, not all COPD datasets or the treatment trial. The first capstone analysis, if feasible, will stay within its available sample groups. We do not claim independent clinical treatment prediction.
 
 ## Primary source
 
