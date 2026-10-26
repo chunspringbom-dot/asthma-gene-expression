@@ -1,121 +1,94 @@
-# Project Roadmap & Weekly Work Logic
+# Project Roadmap — v1.1 (SAT-Adjusted, Evidence-Gated)
 
-**Project:** Asthma airway gene-expression reanalysis  
 **Repository:** https://github.com/chunspringbom-dot/asthma-gene-expression  
-**Planning window:** 2026-10-13 to 2027-02-28  
-**Version:** 1.0 — provisional; revise only when evidence or feasibility requires it.
+**Date revised:** 2026-10-26  
+**Working period:** 2026-10-13 through 2027-02-28  
+**Version:** **1.1 — current**  
+**Earlier plan:** [v1.0 archived intact](archive/PROJECT_ROADMAP_v1.0_2026-10-13.md)  
+**Decision:** [2026-10-26 reading workflow + SAT schedule](decisions/DECISION-2026-10-26-reading-workflow-and-sat-schedule.md)  
+**Change history:** [PROJECT_CHANGELOG.md](PROJECT_CHANGELOG.md)
 
-## 1. North-star objective
+## 1. Objective and honest current status
 
-Produce a small, reproducible, scientifically cautious analysis of a public asthma-related gene-expression dataset, with a clear research question, documented sample selection, transparent analysis settings, interpretable results, limitations, and an admissions-ready GitHub narrative. This is a reanalysis, not an independent replication or clinical diagnostic tool.
+Produce a **small, credible, reproducible student reanalysis** of asthma-related airway epithelial expression, with a clearly scoped question, verified sample selection, analysis settings, original and assistant sources attributed, interpretable plots/tables, limitations, and transparent GitHub history.
 
-## 2. Weekly operating logic
+**Actual work as of Oct 26:** repository planning/notes exist; the student has independently read **only part of the original paper's Abstract**; a supported structural orientation has been prepared. The candidate GEO dataset **GSE67472 is not yet fully verified**, sample mapping is incomplete, and **no GEO2R analysis has been run or verified**. The prior Oct/Nov milestones should **not** be reported as completed.
 
-1. Orient: read this roadmap, the project charter, session handoff rules, and latest handoff.
-2. Question: write the specific question this week's work should answer.
-3. Execute: complete one bounded task and record tools, settings, sources, and decisions.
-4. Verify: check results against primary sources or official metadata; separate facts from interpretation.
-5. Decide: record what is supported, what remains uncertain, and whether the plan should change.
-6. Version: commit meaningful work with a descriptive message.
-7. Handoff: record completed work, evidence, files/commits, unresolved questions, next actions, and a copyable resume prompt.
+**Provisional question (unchanged):** Which genes differ between asthma and healthy airway-epithelial samples in GSE67472, and how do carefully selected inflammation-related expression patterns compare with the original report?
 
-A week is complete only when its exit criteria are met, or when a blocker and revised plan are explicitly recorded.
+## 2. Capacity rule, including SAT postponed to December 5
 
-## 3. Week-by-week plan
+The student reported the SAT examination is now on **Saturday, 2026-12-05** (previously planned Nov 7). Access to a computer is constrained.
 
-| Week | Dates | Direction / key question | Work and deliverables | Exit criteria |
-|---|---|---|---|---|
-| 1 | Oct 13–18 | Establish project and scientific context | Read original paper Methods/Results; inspect GEO record/platform; capture authoritative sources; confirm scope and reproducibility rules. | Cited paper notes; facts separated from assumptions; handoff created. |
-| 2 | Oct 19–25 | Verify sample identities | Inspect GEO sample metadata. Build mapping table: accession, title, phenotype/group, evidence, ambiguity, inclusion decision. | Every group assignment has traceable metadata; ambiguous samples are not guessed. |
-| 3 | Oct 26–Nov 1 | Lock research question | Compare feasible contrasts, such as asthma vs healthy controls. Define one primary contrast and rationale before exploring attractive results. | Question, hypothesis, inclusion/exclusion rules, and analysis plan documented. |
-| 4 | Nov 2–8 | Test data feasibility | Check processed data and comparability; inspect GEO2R sample assignment/settings. Run only after group mapping passes review. | Proceed/revise/change-dataset decision with reasons recorded. |
-| 5 | Nov 9–15 | Produce first analysis output | Run the pre-specified contrast; save settings, output tables, date, and tool-generated script/record where available. Do not chase significance by changing the question. | Output saved with provenance; no unrecorded manual edits. |
-| 6 | Nov 16–22 | Understand the result table | Learn log fold change, p-value, adjusted p-value, probe/gene annotation, and multiple-testing correction. | Data dictionary/analysis notes; significance criterion stated in advance. |
-| 7 | Nov 23–29 | Quality-control findings | Check group sizes, ambiguous samples, annotation, effect direction, and design plausibility. | QC checklist complete; issues resolved or acknowledged. |
-| 8 | Nov 30–Dec 6 | Build readable result summary | Create a ranked table using pre-declared criteria and 1–2 plots if appropriate. | Figures have labels, captions, and source/provenance notes. |
-| 9 | Dec 7–13 | Interpret biological meaning | Research a small set of candidate genes using authoritative gene databases and primary literature. Separate known biology from this dataset's evidence. | Evidence table: gene, observed direction/statistic, external context, citations. |
-| 10 | Dec 14–20 | Stress-test interpretation | Consider cohort composition, airway sampling, platform/probe limits, treatment/subgroup definitions, confounding, and multiple testing. | Limitations and alternative interpretations drafted. |
-| 11 | Dec 21–27 | Reproducibility pass | Re-run documented workflow; compare outputs; record tool/software versions and manual steps. | A reader can follow the documented steps without undocumented memory. |
-| 12 | Dec 28–Jan 3 | Midpoint review / scope control | Review question, evidence, time budget, and missing deliverables. Drop optional work if needed; update roadmap only with a documented reason. | Written midpoint decision and revised milestones if required. |
-| 13 | Jan 4–10 | Draft scientific report | Write Introduction, Question, Dataset/Methods, Results, and Limitations using supported claims only. | Full report draft with citations and figure references. |
-| 14 | Jan 11–17 | Improve communication | Refine figures/tables; explain statistics plainly; challenge interpretations as a skeptical reader. | Science-literate reader can follow results without causal overclaiming. |
-| 15 | Jan 18–24 | Audit sources and citations | Verify biological claims against primary/authoritative sources; check dataset/paper citations and attribution. | Citation audit complete; unsupported claims removed or qualified. |
-| 16 | Jan 25–31 | Polish GitHub portfolio | Organize README, methods, results/data directories, source list, limitations, and reproduction instructions. | Repository navigation clear; filenames and commits tell a coherent project story. |
-| 17 | Feb 1–7 | Critical review and revision | Reviewer-style critique of question, grouping, methods, statistics, interpretation, limits, reproducibility; revise. | Review comments answered or unresolved items clearly marked. |
-| 18 | Feb 8–14 | Final validation | Check links, provenance, outputs, consistency across report/README, and claims. | QA checklist passes; release candidate documented. |
-| 19 | Feb 15–21 | Admissions narrative | Write a truthful summary of motivation, decisions, methods learned, obstacles, evidence, and limitations. | Portfolio summary and concise individual-contribution statement. |
-| 20 | Feb 22–28 | Closeout and retrospective | Freeze report/results; summarize learning and limits; create final handoff and next-project lessons. | Final deliverables committed; final handoff and retrospective published. |
+- **Through Dec 4:** target **60–90 minutes/week** on the capstone, with a maximum of two short sessions. Keep SAT as the priority and do not require lengthy computer-based analyses.
+- **Dec 5:** SAT — no scheduled research tasks.
+- **Dec 6:** optional rest/reset, not a completion gate.
+- **From Dec 7:** aim for **3–4 hours/week if feasible**, adjusting for other school duties. Use available computer time for metadata review and GEO2R; reading notes can be done with minimal computer time.
+- **Feb 28 final portfolio remains a target, not guaranteed.** If a gate fails, narrow scope (one primary contrast, limited figures) or openly mark the analysis incomplete, rather than fabricate results or rush invalid comparisons.
 
-## 4. Milestone gates
+## 3. Reading and research workflow
 
-- Gate A — Dataset/design (by Nov 1): group labels and question are defensible from metadata and original paper.
-- Gate B — Feasibility (by Nov 8): data and tool support the planned comparison. If not, revise or choose another dataset rather than forcing it.
-- Gate C — Evidence quality (by Dec 20): findings are QC-checked and interpretations supported or explicitly uncertain.
-- Gate D — Reproducibility (by Jan 3): workflow and outputs are traceable.
-- Gate E — Portfolio quality (by Feb 28): report, repository, limitations, citations, and handoff tell a consistent story.
+1. **Orient:** check README, this roadmap, latest handoff, recent change log.
+2. **Explain (attributed):** assistant briefly outlines necessary terminology/article structure.
+3. **Verify:** student reads the exact source subsection and compares each claim with the original.
+4. **Explain independently:** student writes 3–5 sentences and at least one question, identifying original section/figure/sample ID.
+5. **Commit:** save a small, honest paper note or dataset inspection with evidence and clear authorship.
+6. **Review exit gate:** do not proceed until the evidence requirement is satisfied.
+7. **Handoff:** log work, unanswered questions, file/commit links, next action.
 
-## 5. Version-control policy for project direction
+**Evidence status labels:** Verified source fact / Student interpretation / Assistant explanation / Provisional plan / Analysis output. None should be silently substituted for another.
 
-- This file is the planning baseline. Change it only when scope, dates, milestone criteria, or major decisions change.
-- Use docs/decisions/DECISION-YYYY-MM-DD-short-title.md for decisions changing the dataset, comparison, or method.
-- Use docs/handoffs/YYYY-MM-DD-short-topic.md for session continuity. A handoff records state; it does not silently change the plan.
-- Every meaningful commit should answer: what changed, why, and what evidence supports it.
-- Suggested commit prefixes: docs:, research:, data:, analysis:, figures:, report:, qa:.
-- At each week's end, add a weekly review/handoff. If a milestone is missed, record the blocker, consequence, and revised date.
-- If the plan changes, update the version/date and add a decision note explaining the evidence behind the change.
+## 4. Weekly plan — October 26, 2026 to February 28, 2027
 
-## 6. Weekly handoff template
+The v1.0 schedule for **Weeks 1–2 (Oct 13–25)** was missed in part. The corresponding deadlines are superseded below, not retroactively checked off.
 
-Create docs/handoffs/YYYY-MM-DD-week-N.md:
+| Week / dates | Practical objective | Expected deliverable / honest exit criterion |
+|---|---|---|
+| W3 · Oct 26–Nov 1 | Finish careful **Abstract orientation**; learn cohort, airway epithelium, overall paper/dataset distinction | Student writes 3–5 source-linked sentences and 1 question; no forced full-paper comprehension |
+| W4 · Nov 2–8 | Study asthma-specific **Methods** using guided reading | Explain subjects/tissue/measurement and identify the corresponding Methods section |
+| W5 · Nov 9–15 | Study **GEO Summary / Overall design** and distinguish asthma data from COPD treatment cohorts | Short evidence table with 62/43 groups, platform, intended comparison, uncertainties |
+| W6 · Nov 16–22 | Inspect a **small pilot** of 5–10 GSM records if computer access permits | Pilot metadata notes with exact GSM links; any ambiguity explicitly recorded |
+| W7 · Nov 23–29 | Resolve 1–2 major vocabulary or subgroup questions and review sample label consistency | Vocabulary corrections + list of outstanding metadata questions |
+| W8 · Nov 30–Dec 6 | SAT-focused maintenance and exam Dec 5 | Zero or one short notebook commit; no study output or hard deadline required |
+| W9 · Dec 7–13 | **Re-entry after SAT**; review notes and inspect complete sample inventory | Clear inventory progress and proposed group mapping, including unresolved samples |
+| W10 · Dec 14–20 | Verify **full 105-sample mapping**, define primary contrast and exclusions | Group mapping with citations; decision for eligible contrast; if not verified, record blocker |
+| W11 · Dec 21–27 | Test processed data suitability / GEO2R feasibility; run only if W10 gate passes | Recorded tool settings and test output **or** reasoned stop/change decision |
+| W12 · Dec 28–Jan 3 | Obtain and audit a **first primary analysis** only if feasible; account for study workload | Versioned output, source, methods and reproducibility notes **or** documented unresolved feasibility |
+| W13 · Jan 4–10 | Learn adjusted p-values, log fold change, microarray probe/gene mapping | Plain-English data dictionary and statistical caveats grounded in actual output, if available |
+| W14 · Jan 11–17 | QC first results or complete delayed feasible analysis | Documented data/group checks; no unreported re-grouping |
+| W15 · Jan 18–24 | Select limited result table and (if justified) 1–2 figures | Result table/plots with labels, sample counts, captions, settings |
+| W16 · Jan 25–31 | Examine limited biological context and interpretation | Gene-evidence table with original/independent references and limitations |
+| W17 · Feb 1–7 | Reproducibility and reviewer-style critique | Reproduction checklist with issues resolved/flagged |
+| W18 · Feb 8–14 | Draft scientific report | Methods/Results/Limitations accurately reflect performed analysis; cite everything |
+| W19 · Feb 15–21 | Portfolio readability, README, admission narrative | Accessible repo index, concise research story, individual contribution note |
+| W20 · Feb 22–28 | Final QA and retrospective; freeze only supported results | Final commit/handoff, limitations, explicit unresolved items and next-step options |
 
-### Metadata
-- Week / dates:
-- Roadmap version:
-- Session date:
-- Current branch / latest commit:
+## 5. Revised evidence gates
 
-### Weekly objective
-- Question this week must answer:
-- Planned exit criteria:
+- **Gate A — Dec 13:** Can the student state the article/dataset boundary, airway samples and key methods accurately, with source locators?
+- **Gate B — Dec 20:** Are individual sample labels, feasible primary contrast, inclusion/exclusion rules, and relevant preprocessing understood and documented? **If not, do not run GEO2R.**
+- **Gate C — Dec 27 / Jan 3:** Is GEO2R/other selected workflow usable and is the first primary result verifiable? If not, document blockage and reduce or revise scope.
+- **Gate D — Feb 7:** Can another person reproduce every reported result, trace sources, and check statistical limitations?
+- **Gate E — Feb 28:** Are the report, repository index, figures, sources, and known limitations consistent? If unfinished, publish only honestly documented work; do not claim completed validation.
 
-### Work completed
-- Tasks:
-- Files/outputs created:
-- Commit links:
+Re-check feasibility **on Dec 13**. If a primary gate is missed, write a dated handoff with blocker, impact and revised task; do **not** quietly move on.
 
-### Evidence and quality checks
-- Primary sources consulted:
-- Directly supported findings:
-- Inferences or unresolved uncertainties:
-- QC checks completed / failed:
+## 6. Change control and archive
 
-### Decisions and plan changes
-- Decision:
-- Evidence/rationale:
-- Roadmap change required? yes/no
-- Decision note link, if applicable:
+- `docs/PROJECT_CHANGELOG.md`: chronological record of project events and mistakes/corrections.
+- `docs/decisions/DECISION-YYYY-MM-DD-short-title.md`: motivation/evidence behind significant workflow/timing changes and **all** dataset, contrast, methodology changes.
+- `docs/archive/PROJECT_ROADMAP_v1.0_2026-10-13.md`: preserved original Oct 13 plan for accountability.
+- `docs/handoffs/YYYY-MM-DD-short-topic.md`: session snapshots with current state, evidence, files, Git state, unknowns, and resume instructions.
+- Git commits: exact file history. Never confuse a retrospective write date with when the student actually read a paper.
+- The primary cohort is currently GSE67472 **only as a candidate**. Future corticosteroid-response prediction would need separate suitable data and an explicit new project decision.
 
-### Current state
-- Completed:
-- In progress:
-- Blocked:
-- Next three actions, prioritized:
+## 7. Useful source and working links
 
-### Resume prompt
-“Continue the asthma gene-expression capstone from this handoff. First read the roadmap, project charter, session handoff rules, and this handoff. Verify current GitHub state before assuming anything is complete. Continue from the next action and do not claim analyses were run unless there is a saved, verifiable output.”
-
-## 7. Immediate actions (Week 1)
-
-1. Read the original paper's Methods and Results and record relevant details with citations.
-2. Inspect GSE67472 sample records and create a first-pass sample inventory.
-3. Keep the research question provisional until metadata and study design are checked.
-4. At session end, commit notes and create a handoff distinguishing verified facts from open questions.
-
-## 8. Source-of-truth links
-
-- GEO series GSE67472: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE67472
-- GEO2R guide: https://www.ncbi.nlm.nih.gov/geo/info/geo2r.html
-- Original paper (PubMed): https://pubmed.ncbi.nlm.nih.gov/25611785/
-- Original paper (full text): https://pmc.ncbi.nlm.nih.gov/articles/PMC4407484/
-- Project charter: https://github.com/chunspringbom-dot/asthma-gene-expression/blob/main/docs/PROJECT_CHARTER.md
-- Handoff rules: https://github.com/chunspringbom-dot/asthma-gene-expression/blob/main/docs/SESSION_HANDOFF_RULES.md
+- [Original paper full text, 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC4407484/) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/25611785/)
+- [GSE67472 official GEO record](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE67472)
+- [GEO2R guide](https://www.ncbi.nlm.nih.gov/geo/info/geo2r.html)
+- [Paper structure reference (assistant-prepared)](../research/literature/christenson-2015-paper-structure.md)
+- [Student Abstract initial interpretation](../research/paper-notes/2026-10-26-abstract-reading-feedback.md)
+- [Source-linked reading notebook](../research/paper-notes/2026-10-13-original-paper-reading.md)
+- [Project charter — provisional question and feasibility rules](PROJECT_CHARTER.md)
+- [Handoff rules](SESSION_HANDOFF_RULES.md)
