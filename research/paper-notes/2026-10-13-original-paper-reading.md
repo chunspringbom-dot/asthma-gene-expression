@@ -1,6 +1,6 @@
 # Original Paper Reading Notes — GSE67472
 
-> **Status:** Not started. This is a note-taking scaffold, not a summary of the paper. Fill in the interpretation only after reading the source.
+> **Status updated 2026-10-26:** In progress — student has read and discussed **part of the Abstract only**. Most fields below remain unfilled; that is intentional and should not be mistaken for a completed literature review. Initial student interpretation and assistant corrections: [Oct 26 reading feedback](2026-10-26-abstract-reading-feedback.md). Assistant-prepared reference (not student work): [article structure guide](../literature/christenson-2015-paper-structure.md).
 
 ## Source information
 
@@ -8,7 +8,7 @@
 - **Linked PubMed record:** [PMID 25611785](https://pubmed.ncbi.nlm.nih.gov/25611785/)
 - **Free full text:** [PMC article](https://pmc.ncbi.nlm.nih.gov/articles/PMC4407484/)
 - **Date started:** 2026-10-13
-- **Reading status:** Not started
+- **Reading status:** In progress — partial Abstract (reported 2026-10-26)
 - **Purpose:** Understand the original study design and claims before deciding what a careful reanalysis of GSE67472 can investigate.
 
 ## Side-by-side reading workspace (원문 ↔ 내 노트)
@@ -40,6 +40,10 @@ Copy one row per idea. Write a **specific locator**, not just “Methods” or �
 GitHub Markdown tables show two columns in **Preview**, but the editor is plain Markdown rather than a true split-screen PDF annotator. For comfortable reading, put the article and GitHub editor in separate windows using Windows Snap (`Win + Left` / `Win + Right`). Then return to **Preview** to inspect the two-column record.
 
 ---
+
+## Important workflow note (adopted 2026-10-26)
+
+Use **assistant explanation → original source verification → student wording → evidence-linked GitHub commit**. The following blank sections are **prompts**, not implied evidence of understanding. Do not copy assistant reference text into student-authored fields without attribution. The current schedule is [Roadmap v1.1](../../docs/PROJECT_ROADMAP.md), with SAT on Dec 5.
 
 ## 1. My first-pass understanding
 
