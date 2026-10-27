@@ -80,6 +80,7 @@ This roadmap records the student's intended **scientific progression**, not a cl
 - docs/PROJECT_CHARTER.md — project scope and decision rules
 - docs/SESSION_HANDOFF_RULES.md — session continuity
 - docs/handoffs/ — dated handoff notes
+- docs/templates/ — reusable paper review and research session log templates
 - research/ — research plan, literature notes, and methods
 - results/ — reviewed tables and figures
 - scripts/ — code added when needed
