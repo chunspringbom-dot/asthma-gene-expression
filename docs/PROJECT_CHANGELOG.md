@@ -18,6 +18,8 @@ This is an **event timeline**, not a list of claimed scientific achievements. Ea
 
 | **2026-10-27** | Student questioned the scientific value and originality of a GSE67472 asthma-versus-healthy comparison, how reanalyses differ from plagiarism, and whether simple replication adds value when prior researchers have already validated findings. Agreed on a **staged strategy: guided reproduction → literature-gap assessment → independent question only if feasible**. This is a strategic clarification, **not** a completed experiment or a finalized new research question. | [Decision: reproduction to independent research](decisions/DECISION-2026-10-27-reproduction-to-independent-research.md); initial documentation commit [`cf01c04`](https://github.com/chunspringbom-dot/asthma-gene-expression/commit/cf01c04e537b14d0bf9ef9a245d2b2fe4fe17543) | Decision documented; no GEO2R run, independent validation, or original analysis completed |
 
+| **2026-10-27** | After the research-direction decision, the student requested a clear seven-step, admission-facing research progression in the README and asked whether a major direction change requires a handoff. Added the **long-term scientific roadmap** while retaining the current SAT-adjusted weekly plan; created a session handoff documenting what was decided versus what was actually done. | [README seven-step roadmap](../README.md#seven-step-research-roadmap-long-term-direction), [Oct 27 decision](decisions/DECISION-2026-10-27-reproduction-to-independent-research.md), [Oct 27 handoff](handoffs/2026-10-27-seven-step-research-direction.md); README commit [`b50bed0`](https://github.com/chunspringbom-dot/asthma-gene-expression/commit/b50bed0872ed9704d38f5a985844604f83bf6b8a) | Documentation updated; weekly roadmap v1.1 unchanged; no analysis completed |
+
 ## Rules for future changes
 
 1. **Never rewrite this timeline to hide delays or mistakes.** Add a correction or new entry when information changes.
@@ -29,7 +31,7 @@ This is an **event timeline**, not a list of claimed scientific achievements. Ea
 
 ## Project status at latest update (2026-10-27)
 
-- **Done:** repository structure, initial sources/feasibility desk review, paper-reading workspace, partial Abstract learning record, study-orientation guide, SAT-adjusted pacing decision, and Oct 27 research-direction decision note.
+- **Done:** repository structure, initial sources/feasibility desk review, paper-reading workspace, partial Abstract learning record, study-orientation guide, SAT-adjusted pacing decision, Oct 27 research-direction decision, README seven-step roadmap, and session handoff.
 - **Not done:** full student reading of Methods/Results, sample-group mapping, validated GEO2R execution, literature-gap verification, independent research question selection, figures, final report.
 - **Next milestone:** 2026-12-13 post-SAT re-entry review; 2026-12-20 target for metadata/primary contrast, subject to feasibility.
 
