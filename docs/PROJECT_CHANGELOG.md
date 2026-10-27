@@ -16,6 +16,8 @@ This is an **event timeline**, not a list of claimed scientific achievements. Ea
 | **2026-10-26** | Student confirmed SAT postponed from **Nov 7 to Dec 5, 2026**, with limited computer access. Previous Oct/Nov milestones were behind the actual work. | [Revised roadmap v1.1](PROJECT_ROADMAP.md), [archived v1.0](archive/PROJECT_ROADMAP_v1.0_2026-10-13.md) | SAT-priority schedule adopted; no missed work backfilled |
 | **2026-10-26** | Prepared a comprehensive end-of-session handoff and explicit next-step instructions for a new conversation. | [Handoff — paper reading and v1.1 roadmap](handoffs/2026-10-26-paper-reading-sat-adjustment.md) | Documentation/transition only |
 
+| **2026-10-27** | Student questioned the scientific value and originality of a GSE67472 asthma-versus-healthy comparison, how reanalyses differ from plagiarism, and whether simple replication adds value when prior researchers have already validated findings. Agreed on a **staged strategy: guided reproduction → literature-gap assessment → independent question only if feasible**. This is a strategic clarification, **not** a completed experiment or a finalized new research question. | [Decision: reproduction to independent research](decisions/DECISION-2026-10-27-reproduction-to-independent-research.md); initial documentation commit [`cf01c04`](https://github.com/chunspringbom-dot/asthma-gene-expression/commit/cf01c04e537b14d0bf9ef9a245d2b2fe4fe17543) | Decision documented; no GEO2R run, independent validation, or original analysis completed |
+
 ## Rules for future changes
 
 1. **Never rewrite this timeline to hide delays or mistakes.** Add a correction or new entry when information changes.
@@ -25,10 +27,10 @@ This is an **event timeline**, not a list of claimed scientific achievements. Ea
 5. **Session continuation:** create `docs/handoffs/YYYY-MM-DD-short-topic.md` with the current state, file links, blockers and exact next actions.
 6. **GitHub history:** use small, descriptive commits. A Git commit date documents when a note was saved, which can differ from the date of the learning event it summarizes.
 
-## Project status at latest update (2026-10-26)
+## Project status at latest update (2026-10-27)
 
-- **Done:** repository structure, initial sources/feasibility desk review, paper-reading workspace, partial Abstract learning record, study-orientation guide, new pacing decision.
-- **Not done:** full student reading of Methods/Results, sample-group mapping, validated GEO2R execution, figures, final report.
+- **Done:** repository structure, initial sources/feasibility desk review, paper-reading workspace, partial Abstract learning record, study-orientation guide, SAT-adjusted pacing decision, and Oct 27 research-direction decision note.
+- **Not done:** full student reading of Methods/Results, sample-group mapping, validated GEO2R execution, literature-gap verification, independent research question selection, figures, final report.
 - **Next milestone:** 2026-12-13 post-SAT re-entry review; 2026-12-20 target for metadata/primary contrast, subject to feasibility.
 
 Primary sources: [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC4407484/) · [GSE67472](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE67472).
