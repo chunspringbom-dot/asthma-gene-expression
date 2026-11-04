@@ -20,6 +20,16 @@ This is an **event timeline**, not a list of claimed scientific achievements. Ea
 
 | **2026-10-27** | After the research-direction decision, the student requested a clear seven-step, admission-facing research progression in the README and asked whether a major direction change requires a handoff. Added the **long-term scientific roadmap** while retaining the current SAT-adjusted weekly plan; created a session handoff documenting what was decided versus what was actually done. | [README seven-step roadmap](../README.md#seven-step-research-roadmap-long-term-direction), [Oct 27 decision](decisions/DECISION-2026-10-27-reproduction-to-independent-research.md), [Oct 27 handoff](handoffs/2026-10-27-seven-step-research-direction.md); README commit [`b50bed0`](https://github.com/chunspringbom-dot/asthma-gene-expression/commit/b50bed0872ed9704d38f5a985844604f83bf6b8a) | Documentation updated; weekly roadmap v1.1 unchanged; no analysis completed |
 
+## November 4, 2026 — Asthma-only roadmap correction
+
+The student requested an asthma-only revision in the archive, with reasons and a continuation record. The multi-project portfolio HTML added in commit `a5ff65a` was incorrectly scoped and placed. It has been removed from the current tree; Git history retains it.
+
+- [New asthma-only revision snapshot](archive/ASTHMA_ROADMAP_REVISION_2026-11-04.md): current progress, reasons for revision, revised target schedule, and feasibility boundaries.
+- [Session handoff](handoffs/2026-11-04-asthma-only-roadmap-correction.md): changed files, remaining work, and next reading section.
+- The original v1.0 archive and active v1.1 roadmap are preserved. The new archive entry is a dated planning snapshot, not a relabeling of v1.0.
+- Updated status evidence: the [November 3 midpoint report](reports/2026-11-03-classroom-midpoint-progress-report.md) records Abstract discussion and Methods begun. The October status below is historical; sample verification and analysis remain incomplete.
+- Completion status: documentation corrected; no new scientific analysis or figures.
+
 ## Rules for future changes
 
 1. **Never rewrite this timeline to hide delays or mistakes.** Add a correction or new entry when information changes.
@@ -29,7 +39,7 @@ This is an **event timeline**, not a list of claimed scientific achievements. Ea
 5. **Session continuation:** create `docs/handoffs/YYYY-MM-DD-short-topic.md` with the current state, file links, blockers and exact next actions.
 6. **GitHub history:** use small, descriptive commits. A Git commit date documents when a note was saved, which can differ from the date of the learning event it summarizes.
 
-## Project status at latest update (2026-10-27)
+## Historical project status (2026-10-27)
 
 - **Done:** repository structure, initial sources/feasibility desk review, paper-reading workspace, partial Abstract learning record, study-orientation guide, SAT-adjusted pacing decision, Oct 27 research-direction decision, README seven-step roadmap, and session handoff.
 - **Not done:** full student reading of Methods/Results, sample-group mapping, validated GEO2R execution, literature-gap verification, independent research question selection, figures, final report.
