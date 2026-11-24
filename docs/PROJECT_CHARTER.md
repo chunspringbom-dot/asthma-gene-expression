@@ -6,7 +6,7 @@
 - **Working period:** October 2026 – February 2027
 - **Research area:** Gene expression / airway inflammation / asthma
 - **Project type:** Student-led analysis of public research data
-- **Status (2026-10-26):** Student has read part of the original Abstract; dataset feasibility and sample group audit incomplete, no analysis executed. See [Roadmap v1.1](PROJECT_ROADMAP.md) and [dated learning/schedule decision](decisions/DECISION-2026-10-26-reading-workflow-and-sat-schedule.md).
+- **Status (2026-11-24):** Guided Abstract discussion and asthma-specific Methods begun; full sample audit and verified analysis incomplete. See [active roadmap v1.2](PROJECT_ROADMAP.md) and [workflow decision](decisions/DECISION-2026-11-24-ai-assisted-analysis-student-investigation.md).
 
 ## Research question (provisional)
 
@@ -34,20 +34,20 @@ Before locking the topic, confirm:
 2. Sample metadata and comparison groups are sufficiently clear.
 3. Processed data can be accessed in a format supported by GEO2R or another feasible tool.
 4. The intended comparison can be performed without unsupported assumptions about sample labels.
-5. The project can produce a small set of interpretable tables/figures by the end of November.
+5. The project can produce a small set of interpretable tables/figures within the conditional revised timeline.
 6. Limitations and potential confounders can be documented.
 
 If these conditions are not met, select a better documented GEO dataset while keeping the broad molecular-biology interest.
 
 ## Proposed analysis plan
 
-1. Read the GEO record and original paper.
-2. Document the platform, data type, group definitions, sample counts, and data processing already applied.
-3. Choose one primary comparison (initially asthma vs healthy controls, subject to feasibility).
-4. Run a documented exploratory analysis using GEO2R or an appropriate accessible workflow.
-5. Report effect direction and statistical evidence, including adjusted p-values when available.
-6. Examine a small, pre-specified set of inflammation-related genes and compare the overall pattern with the original paper.
-7. Interpret findings cautiously; avoid causal or clinical claims.
+1. Assistant prepares source-linked paper explanations and a descriptive literature matrix; student verifies important claims.
+2. Audit sample metadata, processing, platform and comparison eligibility before any analysis.
+3. Document a primary asthma vs healthy contrast (provisional); run an AI-assisted educational pilot only if feasible, saving code/settings and actual output.
+4. Student interprets selected results, raises questions and investigates relevant genes, pathways or limitations using original sources.
+5. Evaluate the literature gap together; student chooses and justifies a feasible follow-up question and protocol, or an educational reanalysis endpoint.
+6. Analyze if appropriate; report effect sizes, adjusted p-values where relevant, reproducibility, null results and limitations. Pilot-derived findings remain exploratory.
+7. Write English report separating published evidence, AI-assisted work and student-owned contributions. Do not pool incomparable literature statistics or represent published values as new calculations.
 
 ## Success criteria
 
@@ -72,20 +72,19 @@ A surprising or non-significant result can still be a valid outcome if the analy
 - No requirement to master Python before starting.
 - A second-dataset analysis is optional, not a core deliverable.
 
-## Active provisional timeline (v1.1; SAT on December 5)
+## Active provisional timeline (v1.2; SAT on December 5)
 
-- **Oct 26–Dec 4, 2026:** SAT priority; capstone target 60–90 minutes/week for guided Abstract, asthma-specific Methods and GEO design notes; pilot sample checks only if access allows.
-- **Dec 5–6:** SAT day and optional recovery; no required research tasks.
-- **Dec 7–20:** Re-enter research; sample metadata audit and provisional primary contrast.
-- **Dec 21, 2026–Jan 17, 2027:** Feasibility and carefully recorded main analysis *only if metadata supports it*. If not, record blockers and revise.
-- **Jan 18–Feb 7:** Figures, interpretation, limitations, and reproducibility if analysis succeeds.
-- **Feb 8–28:** Draft report, organize GitHub, check sources, final handoff and portfolio. Feb 28 remains a target, not a guarantee.
+- **Nov 24–Dec 6:** SAT priority, optional briefing only, no mandatory work.
+- **Dec 7–20:** Briefing, initial literature matrix and full metadata/processing audit; go/no-go decision.
+- **Dec 21–Jan 3:** Educational pilot if feasible, actual outputs and student questions; otherwise document blocker.
+- **Jan 4–31:** Student follow-up investigation, literature gap assessment, scope decision and any justified follow-up analysis.
+- **Feb 1–28:** Verification, English report and portfolio; deadline conditional.
 
-The **original Oct 13 schedule missed some exit criteria**; its original version is preserved [here](archive/PROJECT_ROADMAP_v1.0_2026-10-13.md). See [project chronology](PROJECT_CHANGELOG.md). This scheduling revision does **not** change the scientific question, candidate dataset, or success criteria.
+See [active roadmap](PROJECT_ROADMAP.md), [archived v1.1](archive/PROJECT_ROADMAP_v1.1_2026-10-26.md) and [changelog](PROJECT_CHANGELOG.md). No missed work is retroactively marked complete.
 
 ## Immediate next actions
 
-1. Complete a short source-linked Abstract explanation in the student's own words and clarify cohort/airway epithelial terms.
-2. Read the asthma-specific Methods and distinguish GSE67472 from the article's COPD and GLUCOLD cohorts.
-3. After the December 5 SAT, finish GEO sample-group mapping and check processed data/GEO2R suitability.
-4. Only then prerecord the primary contrast and run a documented analysis if feasible.
+1. Assistant explains Christenson et al. (2015) and GSE67472 using primary source links, then prepares an initial literature evidence matrix.
+2. Student chooses a question or interesting pattern and verifies key claims; no full-paper translation requirement.
+3. After SAT, finish sample and processing audit; run only if the contrast and data are suitable.
+4. Present actual saved results if produced and invite student-led follow-up investigation. No fabricated results or student statements.
