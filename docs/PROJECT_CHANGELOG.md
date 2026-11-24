@@ -54,7 +54,7 @@ The student reported a lack of time and requested the previously discussed appro
 ## November 24, 2026 — Student-led Q9 hypothesis
 
 - [Q9 investigation note](../research/student-investigations/2026-11-24-q9-th2-low-asthma.md): the student proposed comparing Th2-low and Th2-high asthma to explore whether a type 2 expression pattern observed in COPD is less evident in the low group. Assistant checked representative GEO subgroup labels and clarified what the proposed comparison can test.
-- The outcome measure, full metadata audit, and original analysis remain pending.
+- The student then proposed FEV₁ as a candidate clinical outcome and identified a small difference on an additional expression score as a result that could weaken the hypothesis. The expected association direction, score selection, patient-level spirometry linkage, full metadata audit, and original analysis remain pending.
 
 ## Rules for future changes
 
