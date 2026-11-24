@@ -1,94 +1,49 @@
-# Project Roadmap — v1.1 (SAT-Adjusted, Evidence-Gated)
+# Project Roadmap — v1.2 (AI-assisted evidence, student-led investigation)
 
-**Repository:** https://github.com/chunspringbom-dot/asthma-gene-expression  
-**Date revised:** 2026-10-26  
-**Working period:** 2026-10-13 through 2027-02-28  
-**Version:** **1.1 — current**  
-**Earlier plan:** [v1.0 archived intact](archive/PROJECT_ROADMAP_v1.0_2026-10-13.md)  
-**Decision:** [2026-10-26 reading workflow + SAT schedule](decisions/DECISION-2026-10-26-reading-workflow-and-sat-schedule.md)  
-**Change history:** [PROJECT_CHANGELOG.md](PROJECT_CHANGELOG.md)
+**Revised:** 2026-11-24 | **Status:** Active | **Target:** 2027-02-28, conditional  
+**Previous versions:** [v1.0](archive/PROJECT_ROADMAP_v1.0_2026-10-13.md), [v1.1](archive/PROJECT_ROADMAP_v1.1_2026-10-26.md), [November 4 snapshot](archive/ASTHMA_ROADMAP_REVISION_2026-11-04.md).  
+**Decision:** [November 24 workflow decision](decisions/DECISION-2026-11-24-ai-assisted-analysis-student-investigation.md).  
+**Handoff:** [November 24](handoffs/2026-11-24-ai-assisted-research-workflow.md).
 
-## 1. Objective and honest current status
+## Actual baseline — not a completion claim
 
-Produce a **small, credible, reproducible student reanalysis** of asthma-related airway epithelial expression, with a clearly scoped question, verified sample selection, analysis settings, original and assistant sources attributed, interpretable plots/tables, limitations, and transparent GitHub history.
+Guided Abstract discussion and asthma-specific Methods begun, as recorded in the [November 3 report](reports/2026-11-03-classroom-midpoint-progress-report.md). November 4 was documentation correction only. No subsequent research output was identified in the repository before this revision. Weeks 4–7 reading/metadata milestones are not established as complete. Full sample mapping, preprocessing audit, verified GEO2R or other analysis, literature matrix, student-led gap assessment, final independent question and original results remain incomplete. Blockers: insufficient student time, difficult paper reading and December 5 SAT. Do not backfill missed work.
 
-**Actual work as of Oct 26:** repository planning/notes exist; the student has independently read **only part of the original paper's Abstract**; a supported structural orientation has been prepared. The candidate GEO dataset **GSE67472 is not yet fully verified**, sample mapping is incomplete, and **no GEO2R analysis has been run or verified**. The prior Oct/Nov milestones should **not** be reported as completed.
+**Provisional learning question:** Which genes differ between asthma and healthy airway epithelial samples in GSE67472, and how do selected patterns compare with published findings? The 62 asthma and 43 control subjects described by the source are not yet an audited sample manifest. The dataset is not the paper's COPD or GLUCOLD treatment cohorts.
 
-**Provisional question (unchanged):** Which genes differ between asthma and healthy airway-epithelial samples in GSE67472, and how do carefully selected inflammation-related expression patterns compare with the original report?
+## Working method and division of responsibility
 
-## 2. Capacity rule, including SAT postponed to December 5
+1. **AI briefing:** explain the paper's purpose, study design, groups, methods, reported results and limitations with exact source links/locations; distinguish reported values from interpretation. Focus on what is needed for the question, not line-by-line reading.
+2. **AI evidence matrix:** start with 2–3 relevant papers, extend to about 5–10 where useful. Record citation, dataset, participants/tissue, contrast, method, gene/signature, effect/statistic, limitations and comparability. Do not pool incompatible results or count overlapping cohorts as independent. Missing values stay missing.
+3. **Verified educational pilot:** assistant inspects actual GEO metadata, sample labels, processing and data availability; student checks representative records and understands the proposed comparison. Record full eligible sample manifest, group definitions/exclusions, processing, platform/probe mapping and primary comparison before any run. Use GEO2R or reproducible code only if suitable and accessible. Save settings/code, tool versions when available, raw outputs, effect estimates and adjusted p-values where applicable. Show actual tables/plots and explain them; if blocked, show only published evidence and the reason.
+4. **Student investigation:** student selects a result/pattern or discrepancy, explains it in own words, asks a focused question, checks original sources and investigates selected genes/pathways, alternative explanations or methodological limitations. Save student's own interpretation, citations and next question separately from AI-generated text. Do not require a full paper reading before this cycle.
+5. **Question and follow-up:** together compare literature and pilot, evaluate whether a real gap and feasible data exist; student chooses and justifies the question. Prespecify the follow-up protocol and label pilot-derived hypotheses exploratory. Do not call same-data exploration independent confirmation.
+6. **Report:** distinguish published findings, AI-assisted reanalysis and student-led investigation; include provenance, reproducibility, uncertainty and individual contribution. An honest educational reanalysis is acceptable if no defensible novel question emerges.
 
-The student reported the SAT examination is now on **Saturday, 2026-12-05** (previously planned Nov 7). Access to a computer is constrained.
+## Schedule and deliverables
 
-- **Through Dec 4:** target **60–90 minutes/week** on the capstone, with a maximum of two short sessions. Keep SAT as the priority and do not require lengthy computer-based analyses.
-- **Dec 5:** SAT — no scheduled research tasks.
-- **Dec 6:** optional rest/reset, not a completion gate.
-- **From Dec 7:** aim for **3–4 hours/week if feasible**, adjusting for other school duties. Use available computer time for metadata review and GEO2R; reading notes can be done with minimal computer time.
-- **Feb 28 final portfolio remains a target, not guaranteed.** If a gate fails, narrow scope (one primary contrast, limited figures) or openly mark the analysis incomplete, rather than fabricate results or rush invalid comparisons.
-
-## 3. Reading and research workflow
-
-1. **Orient:** check README, this roadmap, latest handoff, recent change log.
-2. **Explain (attributed):** assistant briefly outlines necessary terminology/article structure.
-3. **Verify:** student reads the exact source subsection and compares each claim with the original.
-4. **Explain independently:** student writes 3–5 sentences and at least one question, identifying original section/figure/sample ID.
-5. **Commit:** save a small, honest paper note or dataset inspection with evidence and clear authorship.
-6. **Review exit gate:** do not proceed until the evidence requirement is satisfied.
-7. **Handoff:** log work, unanswered questions, file/commit links, next action.
-
-**Evidence status labels:** Verified source fact / Student interpretation / Assistant explanation / Provisional plan / Analysis output. None should be silently substituted for another.
-
-## 4. Weekly plan — October 26, 2026 to February 28, 2027
-
-The v1.0 schedule for **Weeks 1–2 (Oct 13–25)** was missed in part. The corresponding deadlines are superseded below, not retroactively checked off.
-
-| Week / dates | Practical objective | Expected deliverable / honest exit criterion |
+| Period | Objective | Evidence / exit criterion |
 |---|---|---|
-| W3 · Oct 26–Nov 1 | Finish careful **Abstract orientation**; learn cohort, airway epithelium, overall paper/dataset distinction | Student writes 3–5 source-linked sentences and 1 question; no forced full-paper comprehension |
-| W4 · Nov 2–8 | Study asthma-specific **Methods** using guided reading | Explain subjects/tissue/measurement and identify the corresponding Methods section |
-| W5 · Nov 9–15 | Study **GEO Summary / Overall design** and distinguish asthma data from COPD treatment cohorts | Short evidence table with 62/43 groups, platform, intended comparison, uncertainties |
-| W6 · Nov 16–22 | Inspect a **small pilot** of 5–10 GSM records if computer access permits | Pilot metadata notes with exact GSM links; any ambiguity explicitly recorded |
-| W7 · Nov 23–29 | Resolve 1–2 major vocabulary or subgroup questions and review sample label consistency | Vocabulary corrections + list of outstanding metadata questions |
-| W8 · Nov 30–Dec 6 | SAT-focused maintenance and exam Dec 5 | Zero or one short notebook commit; no study output or hard deadline required |
-| W9 · Dec 7–13 | **Re-entry after SAT**; review notes and inspect complete sample inventory | Clear inventory progress and proposed group mapping, including unresolved samples |
-| W10 · Dec 14–20 | Verify **full 105-sample mapping**, define primary contrast and exclusions | Group mapping with citations; decision for eligible contrast; if not verified, record blocker |
-| W11 · Dec 21–27 | Test processed data suitability / GEO2R feasibility; run only if W10 gate passes | Recorded tool settings and test output **or** reasoned stop/change decision |
-| W12 · Dec 28–Jan 3 | Obtain and audit a **first primary analysis** only if feasible; account for study workload | Versioned output, source, methods and reproducibility notes **or** documented unresolved feasibility |
-| W13 · Jan 4–10 | Learn adjusted p-values, log fold change, microarray probe/gene mapping | Plain-English data dictionary and statistical caveats grounded in actual output, if available |
-| W14 · Jan 11–17 | QC first results or complete delayed feasible analysis | Documented data/group checks; no unreported re-grouping |
-| W15 · Jan 18–24 | Select limited result table and (if justified) 1–2 figures | Result table/plots with labels, sample counts, captions, settings |
-| W16 · Jan 25–31 | Examine limited biological context and interpretation | Gene-evidence table with original/independent references and limitations |
-| W17 · Feb 1–7 | Reproducibility and reviewer-style critique | Reproduction checklist with issues resolved/flagged |
-| W18 · Feb 8–14 | Draft scientific report | Methods/Results/Limitations accurately reflect performed analysis; cite everything |
-| W19 · Feb 15–21 | Portfolio readability, README, admission narrative | Accessible repo index, concise research story, individual contribution note |
-| W20 · Feb 22–28 | Final QA and retrospective; freeze only supported results | Final commit/handoff, limitations, explicit unresolved items and next-step options |
+| Nov 24–Dec 4 | SAT priority; optional short AI paper briefing | No mandatory output; if time permits, one student question |
+| Dec 5–6 | SAT and recovery | No research requirement |
+| Dec 7–13 | AI explains original paper and 2–3 related papers; start GEO audit | Cited evidence matrix draft; student explains key comparison and chooses one question; unresolved metadata listed |
+| Dec 14–20 | Complete group/processing audit and primary comparison | Verified eligible sample manifest, documented processing, justified go/no-go; no run if gate fails |
+| Dec 21–Jan 3 | AI-assisted educational pilot and interpretation; extend literature matrix | Actual saved outputs/code/settings if feasible, otherwise explicit blocker; student identifies 1–2 patterns/questions |
+| Jan 4–17 | Student investigates selected patterns; compare roughly 5–10 papers | Cited student investigation note; gap assessment and feasible question/protocol or decision to finish educational reanalysis |
+| Jan 18–31 | Follow-up analysis if appropriate and feasible | Reproducible results, student interpretation, limitations; exploratory if pilot-derived |
+| Feb 1–14 | Verify results and draft English report | Traceable methods/results, literature discussion, contribution statement |
+| Feb 15–28 | Portfolio finalization | README, report, evidence files, figures if available, clear limitations; disclose incomplete work |
 
-## 5. Revised evidence gates
+Capacity: optional up to 60–90 min/week before SAT only if feasible; 3–4 hours/week after Dec 7 if feasible. Reassess Dec 13 and Dec 20. Do not compensate for delay by skipping data checks. Narrow scope or extend the target if needed.
 
-- **Gate A — Dec 13:** Can the student state the article/dataset boundary, airway samples and key methods accurately, with source locators?
-- **Gate B — Dec 20:** Are individual sample labels, feasible primary contrast, inclusion/exclusion rules, and relevant preprocessing understood and documented? **If not, do not run GEO2R.**
-- **Gate C — Dec 27 / Jan 3:** Is GEO2R/other selected workflow usable and is the first primary result verifiable? If not, document blockage and reduce or revise scope.
-- **Gate D — Feb 7:** Can another person reproduce every reported result, trace sources, and check statistical limitations?
-- **Gate E — Feb 28:** Are the report, repository index, figures, sources, and known limitations consistent? If unfinished, publish only honestly documented work; do not claim completed validation.
+## Evidence and repository rules
 
-Re-check feasibility **on Dec 13**. If a primary gate is missed, write a dated handoff with blocker, impact and revised task; do **not** quietly move on.
+- Published claims vs assistant explanation vs student interpretation vs actual computed outputs must be labeled separately.
+- Proposed locations (create only when work exists): `research/literature/` for evidence matrix; `research/student-investigations/` for authentic student follow-up; `research/` for metadata/analysis protocol; `scripts/` for executable code; `results/` for saved outputs with provenance; `docs/reports/` for English reports.
+- All important claims require source URLs and locations. Store sample IDs, data retrieval date, processing, settings, comparison direction, exclusions and reproducibility information. Respect reuse terms; avoid large raw-data copies.
+- Literature values alone are not a new statistical analysis; no pooling of incomparable data, invented values, fabricated student authorship, clinical diagnosis, causal or treatment-response claims. Independent validation requires genuinely independent data and suitable methods.
+- Use existing changelog and handoff conventions; update only for meaningful work. This revision is a planning change, not an analysis.
 
-## 6. Change control and archive
+## Resume
 
-- `docs/PROJECT_CHANGELOG.md`: chronological record of project events and mistakes/corrections.
-- `docs/decisions/DECISION-YYYY-MM-DD-short-title.md`: motivation/evidence behind significant workflow/timing changes and **all** dataset, contrast, methodology changes.
-- `docs/archive/PROJECT_ROADMAP_v1.0_2026-10-13.md`: preserved original Oct 13 plan for accountability.
-- `docs/handoffs/YYYY-MM-DD-short-topic.md`: session snapshots with current state, evidence, files, Git state, unknowns, and resume instructions.
-- Git commits: exact file history. Never confuse a retrospective write date with when the student actually read a paper.
-- The primary cohort is currently GSE67472 **only as a candidate**. Future corticosteroid-response prediction would need separate suitable data and an explicit new project decision.
-
-## 7. Useful source and working links
-
-- [Original paper full text, 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC4407484/) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/25611785/)
-- [GSE67472 official GEO record](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE67472)
-- [GEO2R guide](https://www.ncbi.nlm.nih.gov/geo/info/geo2r.html)
-- [Paper structure reference (assistant-prepared)](../research/literature/christenson-2015-paper-structure.md)
-- [Student Abstract initial interpretation](../research/paper-notes/2026-10-26-abstract-reading-feedback.md)
-- [Source-linked reading notebook](../research/paper-notes/2026-10-13-original-paper-reading.md)
-- [Project charter — provisional question and feasibility rules](PROJECT_CHARTER.md)
-- [Handoff rules](SESSION_HANDOFF_RULES.md)
+Start with a source-linked briefing on [Christenson et al. 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC4407484/) and [GSE67472](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE67472), explain published findings and design, prepare the initial comparison matrix, then ask the student which pattern warrants follow-up. Do not require the student to translate the whole paper. Verify metadata before computing any original results.
