@@ -2,12 +2,14 @@
 
 A student-led, AI-assisted bioinformatics capstone investigating airway epithelial gene-expression differences in asthma using publicly available data.
 
-> **Status (2026-11-24):** Guided Abstract discussion and asthma-specific Methods begun. GSE67472 remains a candidate; full metadata/processing audit, verified analysis, literature-gap review and final independent question are incomplete. No original result tables or figures are established. The workflow has changed, not the scientific completion status.
+> **Status (2026-11-24):** Initial four-paper evidence matrix and guided paper review completed (Q1–Q8: 8/8; independent mastery not established). Student-led follow-up begins at unanswered Q9. GSE67472 remains a candidate; full metadata/processing audit, verified analysis, literature-gap review and final independent question are incomplete. No original result tables or figures are established.
 
 ## Start here
 
 - [Active roadmap v1.2](docs/PROJECT_ROADMAP.md) — evidence-first workflow, schedule and verification gates.
-- [Latest handoff — Nov 24](docs/handoffs/2026-11-24-ai-assisted-research-workflow.md) — resume point.
+- [Latest research handoff — Nov 24](docs/handoffs/2026-11-24-guided-paper-review-to-student-investigation.md) — resume at Q9.
+- [Initial literature evidence matrix](research/literature/2026-11-24-initial-evidence-matrix.md) · [Guided learning checkpoint](research/paper-notes/2026-11-24-guided-methods-results-discussion.md)
+- [Earlier workflow handoff](docs/handoffs/2026-11-24-ai-assisted-research-workflow.md) · [Initial literature handoff](docs/handoffs/2026-11-24-initial-literature-evidence.md)
 - [Nov 24 workflow decision](docs/decisions/DECISION-2026-11-24-ai-assisted-analysis-student-investigation.md) — division of labor and research integrity.
 - [Nov 3 midpoint report](docs/reports/2026-11-03-classroom-midpoint-progress-report.md) — historical progress evidence.
 - [Project charter](docs/PROJECT_CHARTER.md) · [Changelog](docs/PROJECT_CHANGELOG.md) · [Handoff rules](docs/SESSION_HANDOFF_RULES.md)
