@@ -51,6 +51,11 @@ The student reported a lack of time and requested the previously discussed appro
 - [README](../README.md) was updated to link to the latest handoff and show Q9 as the starting point for the student-led investigation. Commit [`9064247`](https://github.com/chunspringbom-dot/asthma-gene-expression/commit/9064247c5893e40f43650031e1cccf556946f058).
 - Student-selected question, full metadata audit, and original analysis remain pending. Earlier planning and literature handoffs are preserved.
 
+## November 24, 2026 — Student-led Q9 hypothesis
+
+- [Q9 investigation note](../research/student-investigations/2026-11-24-q9-th2-low-asthma.md): the student proposed comparing Th2-low and Th2-high asthma to explore whether a type 2 expression pattern observed in COPD is less evident in the low group. Assistant checked representative GEO subgroup labels and clarified what the proposed comparison can test.
+- The outcome measure, full metadata audit, and original analysis remain pending.
+
 ## Rules for future changes
 
 1. **Never rewrite this timeline to hide delays or mistakes.** Add a correction or new entry when information changes.
