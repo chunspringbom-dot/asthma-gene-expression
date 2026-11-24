@@ -48,6 +48,7 @@ The student reported a lack of time and requested the previously discussed appro
 
 - [Guided paper learning checkpoint](../research/paper-notes/2026-11-24-guided-methods-results-discussion.md): assistant-supported Methods, Statistical Analysis, Results and Discussion; student answered Q1–Q8 correctly (8/8), demonstrating guided conceptual recognition, not independent mastery.
 - [Cumulative research handoff](handoffs/2026-11-24-guided-paper-review-to-student-investigation.md), commit `55fdc10a615319dd2f2982bac0fdb170345f5ced`: preserves the four-paper evidence matrix, actual student responses, scientific boundaries and exact resume point (unanswered Q9 on Th2-low asthma and data needed to investigate a hypothesis).
+- [README](../README.md) was updated to link to the latest handoff and show Q9 as the starting point for the student-led investigation. Commit [`9064247`](https://github.com/chunspringbom-dot/asthma-gene-expression/commit/9064247c5893e40f43650031e1cccf556946f058).
 - Student-selected question, full metadata audit, and original analysis remain pending. Earlier planning and literature handoffs are preserved.
 
 ## Rules for future changes
