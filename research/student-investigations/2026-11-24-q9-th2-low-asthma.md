@@ -1,7 +1,7 @@
 # Q9 student investigation — Th2-low asthma and a COPD-associated expression pattern
 
 **Date:** 2026-11-24  
-**Status:** Tentative student hypothesis and comparison proposed. Student proposed FEV₁ as a candidate clinical outcome. Expression measure, expected direction, and full metadata audit pending.
+**Status:** Tentative student hypothesis and comparison proposed. Student proposed FEV₁ as a candidate clinical outcome. Student predicted an inverse association between an additional gene-expression score and FEV₁. Score definition and full metadata audit pending.
 
 ## Student response (English translation)
 
@@ -15,7 +15,7 @@ The student hypothesized that patients with Th2-low asthma may be less likely to
 
 ## Student follow-up (English translation)
 
-The student proposed relating the expression of additional genes to a lung-function measurement such as FEV₁ in the same patients. The student would consider a small difference between Th2-high and Th2-low on a different score as evidence that weakens the hypothesis. The student did not specify the exact expression score, the expected direction of the relationship with FEV₁, or a threshold for a small difference.
+The student proposed relating the expression of additional genes to a lung-function measurement such as FEV₁ in the same patients. The student would consider a small difference between Th2-high and Th2-low on a different score as evidence that weakens the hypothesis. At this stage, the student had not specified the exact expression score, the expected direction of the relationship with FEV₁, or a threshold for a small difference.
 
 ## Assistant feedback and feasibility
 
@@ -23,4 +23,12 @@ The student proposed relating the expression of additional genes to a lung-funct
 - The clinical association asks whether that score tracks lung function across individual patients. An analysis would require paired expression and spirometry records for the same participants. FEV₁ % predicted is one possible version of this outcome, subject to data availability and consistent measurement conditions. The published association in the COPD cohorts provides context. See [Christenson et al.](https://pubmed.ncbi.nlm.nih.gov/25611785/).
 - The [series summary](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE67472) and the checked [Th2-low](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM1647628) and [Th2-high](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM1647669) sample records did not establish a source of patient-level FEV₁ values that can be linked to expression. Availability remains unverified. Group summaries would not support a patient-level association analysis.
 
-**Next checkpoint:** The student predicts the direction of the proposed association between the additional expression score and FEV₁. The expression comparison remains a possible first step after the metadata audit. No original analysis was run.
+## Student prediction (English translation)
+
+The student predicted that FEV₁ would be lower at higher values of the additional gene-expression score. Their reason was that the proposed genes came from a comparison of asthma patients with healthy controls.
+
+## Assistant feedback on the prediction
+
+An asthma-versus-control difference can motivate a hypothesis about pulmonary function within asthma. The comparisons address different questions. Candidate genes may have higher or lower expression in asthma, so the score needs a direction convention. For example, a higher score could indicate a more asthma-like expression pattern by counting higher expression of asthma-upregulated genes and lower expression of asthma-downregulated genes in the same direction. This is a proposed convention and the student has yet to select the score. A negative relationship with FEV₁ in asthma remains an exploratory hypothesis and requires paired measurements.
+
+**Next checkpoint:** Specify how genes that are lower in asthma contribute to an asthma-like expression score. Verify the expression data and linkage to patient-level spirometry before testing the clinical hypothesis. No original analysis was run.
