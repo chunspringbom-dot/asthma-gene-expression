@@ -30,6 +30,15 @@ The student requested an asthma-only revision in the archive, with reasons and a
 - Updated status evidence: the [November 3 midpoint report](reports/2026-11-03-classroom-midpoint-progress-report.md) records Abstract discussion and Methods begun. The October status below is historical; sample verification and analysis remain incomplete.
 - Completion status: documentation corrected; no new scientific analysis or figures.
 
+## November 24, 2026 — AI-assisted evidence-first workflow (v1.2)
+
+The student reported a lack of time and requested the previously discussed approach: AI explains papers, organizes related published evidence and performs supported data analysis, then the student chooses patterns/questions and investigates further. The latest prior commit was November 4; no new analysis output was identified. The prior reading-first plan and missed milestones are preserved, not retroactively completed.
+
+- [Archived exact v1.1](archive/PROJECT_ROADMAP_v1.1_2026-10-26.md) and [active v1.2](PROJECT_ROADMAP.md).
+- [Decision](decisions/DECISION-2026-11-24-ai-assisted-analysis-student-investigation.md), updated [README](../README.md) and [charter](PROJECT_CHARTER.md).
+- [November 24 handoff](handoffs/2026-11-24-ai-assisted-research-workflow.md).
+- No mandatory work before Dec 5 SAT; post-exam evidence matrix, metadata audit, educational pilot if valid, student-led investigation and conditional follow-up. Distinguish published results, actual AI-assisted computation, and student's own work. **Documentation change only; no analysis or new result produced.**
+
 ## Rules for future changes
 
 1. **Never rewrite this timeline to hide delays or mistakes.** Add a correction or new entry when information changes.
