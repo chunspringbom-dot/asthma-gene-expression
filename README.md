@@ -2,12 +2,12 @@
 
 A student-led, AI-assisted bioinformatics capstone investigating airway epithelial gene-expression differences in asthma using publicly available data.
 
-> **Status (2026-11-24):** Initial four-paper evidence matrix and guided paper review completed (Q1–Q8: 8/8; independent mastery not established). The student proposed a hypothesis and comparison in Q9. The outcome measure is pending. GSE67472 remains a candidate; full metadata/processing audit, verified analysis, literature-gap review and final independent question are incomplete. No original result tables or figures are established.
+> **Status (2026-11-25)** The student selected the within-asthma ACQ and type 2 expression question. GSE89809 feasibility and the scoring protocol are under review. Original analysis is pending.
 
 ## Start here
 
-- [Active roadmap v1.2](docs/PROJECT_ROADMAP.md) — evidence-first workflow, schedule and verification gates.
-- [Latest research handoff — Nov 24](docs/handoffs/2026-11-24-guided-paper-review-to-student-investigation.md) — guided review history.
+- [Active roadmap v1.3](docs/PROJECT_ROADMAP.md) — evidence-first workflow, schedule and verification gates.
+- [Latest research handoff — Nov 25](docs/handoffs/2026-11-25-asthma-control-and-type-2-expression.md) — scope decision and patient-level data audit.
 - [Q9 student investigation](research/student-investigations/2026-11-24-q9-th2-low-asthma.md) — tentative hypothesis, proposed comparison, and next checkpoint.
 - [Initial literature evidence matrix](research/literature/2026-11-24-initial-evidence-matrix.md) · [Guided learning checkpoint](research/paper-notes/2026-11-24-guided-methods-results-discussion.md)
 - [Earlier workflow handoff](docs/handoffs/2026-11-24-ai-assisted-research-workflow.md) · [Initial literature handoff](docs/handoffs/2026-11-24-initial-literature-evidence.md)
@@ -18,7 +18,7 @@ A student-led, AI-assisted bioinformatics capstone investigating airway epitheli
 
 ## Working research question
 
-Which genes differ between asthma and healthy airway epithelial samples in [GSE67472](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE67472), and how do selected patterns compare with the original study? This is a provisional educational question, not a claim of novelty. The source describes 62 asthma and 43 control subjects; individual sample labels and processing must be audited before analysis. The [Christenson et al. (2015) paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC4407484/) includes other COPD and GLUCOLD cohorts, which GSE67472 does not contain.
+Among patients with asthma, how closely does asthma control (ACQ) track a predefined type 2 gene-expression score in airway epithelial cells? How much does the expression score vary among patients with similar ACQ scores? The first candidate is [GSE89809](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE89809). [Decision and rationale](docs/decisions/DECISION-2026-11-25-asthma-control.md).
 
 ## Research workflow
 
