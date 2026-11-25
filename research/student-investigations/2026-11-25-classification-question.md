@@ -1,8 +1,8 @@
 # How much does an asthma diagnosis tell us about airway inflammation?
 
-On November 25, the student asked how well a disease label captures differences between patients, whether symptoms reveal those differences, and whether to investigate subgroup frequencies or mechanisms. The narrower question below is an AI-assisted recommendation pending student selection.
+On November 25, the student asked how well a disease label captures differences between patients, whether symptoms reveal those differences, and whether to investigate subgroup frequencies or mechanisms. The narrower question below is an AI-assisted recommendation that the student adopted on November 25.
 
-## Candidate question
+## Selected question
 
 Among patients with asthma in GSE89809, how closely does the Asthma Control Questionnaire (ACQ) score track a predefined airway epithelial type 2 expression score? How much variation in expression is visible among patients with similar asthma control?
 
