@@ -1,15 +1,14 @@
-# Project Roadmap — v1.2 (AI-assisted evidence, student-led investigation)
+# Project Roadmap — v1.3 (AI-assisted evidence, student-led investigation)
 
-**Revised:** 2026-11-24 | **Status:** Active | **Target:** 2027-02-28, conditional  
+**Revised:** 2026-11-25 | **Status:** Active | **Target:** 2027-02-28, conditional  
 **Previous versions:** [v1.0](archive/PROJECT_ROADMAP_v1.0_2026-10-13.md), [v1.1](archive/PROJECT_ROADMAP_v1.1_2026-10-26.md), [November 4 snapshot](archive/ASTHMA_ROADMAP_REVISION_2026-11-04.md).  
-**Decision:** [November 24 workflow decision](decisions/DECISION-2026-11-24-ai-assisted-analysis-student-investigation.md).  
-**Handoff:** [November 24](handoffs/2026-11-24-ai-assisted-research-workflow.md).
+**Decision:** [November 25 scope change](decisions/DECISION-2026-11-25-asthma-control.md). Previous [v1.2 roadmap](archive/PROJECT_ROADMAP_v1.2_2026-11-24.md).
 
-## Actual baseline — not a completion claim
+## Active question
 
-Guided Abstract discussion and asthma-specific Methods begun, as recorded in the [November 3 report](reports/2026-11-03-classroom-midpoint-progress-report.md). November 4 was documentation correction only. No subsequent research output was identified in the repository before this revision. Weeks 4–7 reading/metadata milestones are not established as complete. Full sample mapping, preprocessing audit, verified GEO2R or other analysis, literature matrix, student-led gap assessment, final independent question and original results remain incomplete. Blockers: insufficient student time, difficult paper reading and December 5 SAT. Do not backfill missed work.
+Among patients with asthma, how closely does asthma control (ACQ) track a predefined type 2 gene-expression score in airway epithelial cells? How much does the expression score vary among patients with similar ACQ scores?
 
-**Provisional learning question:** Which genes differ between asthma and healthy airway epithelial samples in GSE67472, and how do selected patterns compare with published findings? The 62 asthma and 43 control subjects described by the source are not yet an audited sample manifest. The dataset is not the paper's COPD or GLUCOLD treatment cohorts.
+GSE89809 is the primary candidate. The patient manifest and score definition are pending.
 
 ## Working method and division of responsibility
 
@@ -46,4 +45,4 @@ Capacity: optional up to 60–90 min/week before SAT only if feasible; 3–4 hou
 
 ## Resume
 
-Start with a source-linked briefing on [Christenson et al. 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC4407484/) and [GSE67472](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE67472), explain published findings and design, prepare the initial comparison matrix, then ask the student which pattern warrants follow-up. Do not require the student to translate the whole paper. Verify metadata before computing any original results.
+Audit GSE89809 bronchial epithelial brushing records. Build one row per eligible patient with sample ID, ACQ, available treatment information and reasons for exclusions. Check duplicate IDs, missing values, questionnaire version and expression preprocessing. [Session handoff](handoffs/2026-11-25-asthma-control-and-type-2-expression.md).
