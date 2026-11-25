@@ -56,6 +56,10 @@ The student reported a lack of time and requested the previously discussed appro
 - [Q9 investigation note](../research/student-investigations/2026-11-24-q9-th2-low-asthma.md): the student proposed comparing Th2-low and Th2-high asthma to explore whether a type 2 expression pattern observed in COPD is less evident in the low group. Assistant checked representative GEO subgroup labels and clarified what the proposed comparison can test.
 - The student then proposed FEV₁ as a candidate clinical outcome and identified a small difference on an additional expression score as a result that could weaken the hypothesis. The student predicted lower FEV₁ at higher values of the additional expression score, based on how the candidate genes were identified. Score definition, patient-level spirometry linkage, full metadata audit, and original analysis remain pending.
 
+## 2026-11-25 · Student selected the within-asthma comparison
+
+The earlier asthma–control and Q9 subgroup questions left several possible outcomes. The student chose to ask how much patients with similar asthma control differ in airway type 2 expression. GSE89809 has individual epithelial records with ACQ. The full patient audit, scoring protocol and original analysis are pending. [Decision and rationale](decisions/DECISION-2026-11-25-asthma-control.md) · [Handoff](handoffs/2026-11-25-asthma-control-and-type-2-expression.md).
+
 ## Rules for future changes
 
 1. **Never rewrite this timeline to hide delays or mistakes.** Add a correction or new entry when information changes.
